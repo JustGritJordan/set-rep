@@ -18,4 +18,4 @@ const SetRepSchema = new Schema({
 
 const SetRep = mongoose.model("SetRep", SetRepSchema);
 
-module.exports = Todo;
+module.exports = SetRep;

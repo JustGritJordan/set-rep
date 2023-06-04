@@ -1,0 +1,15 @@
+GET http://localhost:3001/setrep
+
+###
+
+POST http://localhost:3001/setrep/new
+Content-Type: application/json
+
+{
+    "text": "lets get it"
+}
+
+#  Skipping section in video on models, 
+# not sure I need this part but need to move on
+# For whatever reason text does not show for me (17:48) - Last part watched
+# picked uped at (24:02)

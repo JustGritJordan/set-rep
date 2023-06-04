@@ -17,4 +17,22 @@ mongoose.connect("mongodb://127.0.0.1:27017/set-rep", {
 .then(() => console.log("Connected to DB"))
 .catch(console.error);
 
+const SetRep = require('./models/SetRep');
+
+app.get('/setrep', async (req,res) => {
+    const setrep = await SetRep.find();
+    res.json(setrep);
+});
+
+app.post('/setrep/new', (req, res) => {
+    const setrep = new SetRep({
+    text: req.body.text
+    });
+
+    setrep.save();
+
+    res.json(setrep);
+});
+
 app.listen(3001, () => console.log("Server started on port 3001"));
+// minute 14:13 full stack video
