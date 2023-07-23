@@ -2,14 +2,14 @@
 width: 100%;
 height: 100vh;
 display: grid;
-background-color:bisque
+background-color:rgb(155, 154, 154)
 }
 .header{
-    background: #0445d1;
+    background: #1a1f29;
     height: 100px;
 }
  
-.h1{
+.SetRep{
     margin: 0; 
     padding-top: 25px;
     text-align: center;
@@ -17,18 +17,23 @@ background-color:bisque
     font-size: 3rem;
 }
 .SetsQuestion{
+    margin-top: 70px;
     text-align: center;
-    margin-block: 50px;
-
+    font-size:25px;
+    
 }
 .inputBox{
+    margin:auto;
+    margin-bottom: 100px;
+
+}
+.GoButtonDiv{
+    margin-top: 10px;
+    margin-bottom: 150px;
     text-align: center;
-    padding-bottom: 50px;
 }
 
 .GoButton{
-    margin: auto; 
-    padding-top: 25px;
-    text-align: center;
-    font-size: 3rem;
+    margin: auto
 }
+

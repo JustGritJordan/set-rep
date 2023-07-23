@@ -5,23 +5,20 @@ import Form from 'react-bootstrap/Form';
 import Stack from 'react-bootstrap/Stack';
 
 
-
-
-
 function Header() {
   return (  
     <div className='container'>
   
     <header className="header">
-      <h1 className='h1'>SetRep</h1>
+      <h1 className='SetRep'>SetRep</h1>
       <h1 className='SetsQuestion'> How many sets?</h1>
     </header>
     <Form className='inputBox'>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Control type="email" placeholder="Number between 1 and 15" />
+        <Form.Control type="email" placeholder="1 to 15 sets" />
       </Form.Group>
     </Form>  
-    <Form>
+    {/* <Form>
       {['checkbox', 'radio'].map((type) => (
         <div key={`inline-${type}`} className="mb-3">
           <Form.Check
@@ -51,9 +48,11 @@ function Header() {
     <Stack gap={2} className="col-md-5 mx-auto">
       <Button variant="secondary">Save changes</Button>
       <Button variant="outline-secondary">Cancel</Button>
-    </Stack>
-    <Button className='GoButton'>Here is the button
+    </Stack> */}
+    <div className='GoButtonDiv'>
+    <Button className='GoButton'>START EXERCISE
     </Button>
+    </div>
     </div>
   );
 }
