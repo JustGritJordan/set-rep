@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
   },
-  {
-    path: "SetsRemaining",
+  { 
+    path: "SetRemaining",
     element: <SetRemaining/>,
-  },
+  }, 
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,3 +26,5 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+// 1. Next steps create a nav bar
+// 2. Find another how to create link tutorial

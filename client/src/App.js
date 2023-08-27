@@ -3,13 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Stack from 'react-bootstrap/Stack';
+import NavBarComp from './compenets/NavBarComp.js';
 
 
 
 function Header() {
   return (  
     <div className='container'>
+    <NavBarComp/>
+  
   
     <header className="header">
       <h1 className='SetRep'>SetRep</h1>

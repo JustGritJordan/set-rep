@@ -1,13 +1,14 @@
 import React from 'react'
-import NavBar from '../compenets/NavBar.JS'
+import NavBarComp from '../compenets/NavBarComp'
+
 
 function SetRemaining() {
   return (
     <div>
-    <NavBar></NavBar>
+    <NavBarComp></NavBarComp>
     <div>SetRemaining</div>
     </div>
   )
 }
 
-export default SetRemaining 
+export default SetRemaining   
