@@ -26,5 +26,8 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-// 1. Next steps create a nav bar
-// 2. Find another how to create link tutorial
+
+// 1. Add Footer
+// 2. Edit Nav Bar
+// 3. Add Pages
+// 4. Add Logic

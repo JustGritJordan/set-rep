@@ -6,9 +6,11 @@ background-color:rgb(155, 154, 154)
 }
 
 .SetsQuestion{
-    margin-top:50px;
+    margin-top:80px;
+    margin-bottom: 0px;
     text-align: center;
     font-size:25px;
+    text-decoration: underline;
     
 }
 .inputBox{
