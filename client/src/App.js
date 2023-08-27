@@ -11,10 +11,7 @@ function Header() {
   return (  
     <div className='container'>
     <NavBarComp/>
-  
-  
     <header className="header">
-      <h1 className='SetRep'>SetRep</h1>
       <h1 className='SetsQuestion'> How many sets?</h1>
     </header>
     <Form className='inputBox'>

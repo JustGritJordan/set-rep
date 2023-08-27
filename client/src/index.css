@@ -4,27 +4,16 @@ height: 100vh;
 display: grid;
 background-color:rgb(155, 154, 154)
 }
-.header{
-    background: #1a1f29;
-    height: 100px;
-}
- 
-.SetRep{
-    margin: 0; 
-    padding-top: 25px;
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-}
+
 .SetsQuestion{
-    margin-top: 70px;
+    margin-top:50px;
     text-align: center;
     font-size:25px;
     
 }
 .inputBox{
     margin:auto;
-    margin-bottom: 100px;
+    margin-bottom: 0%;
 
 }
 .GoButtonDiv{
@@ -34,6 +23,8 @@ background-color:rgb(155, 154, 154)
 }
 
 .GoButton{
-    margin: auto
+    margin: auto;
+    margin-bottom: 400px;
+
 }
 
