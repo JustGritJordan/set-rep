@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarComp from './compenets/NavBarComp.js';
+import Footer from './compenets/Footer';
 
 
 
@@ -54,6 +55,7 @@ function Header() {
     <Button className='GoButton'>START EXERCISE
     </Button>
     </div>
+    <Footer></Footer>
     </div>
   );
 }
