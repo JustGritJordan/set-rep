@@ -7,21 +7,32 @@ const Footer = () => {
     <div className = "main-footer">
     {/* <div className ="container"> */}
     <div className ="row">
+
+    {/* Column 1  */}
     <div className='col-md-3 col-sm-6'>
-    <h4> Title</h4>
-    <ul>
+    <h4> Title</h4 >
+    <ul className="list-unstyled">
         <li> What it do</li>
         <li> Howdy Partner</li>
         <li> I like muscle butt anime girls lol </li>
     </ul>
-
     </div>
+{/* Column 2 */}
+    <div className='col-md-3 col-sm-6'>
+    <h4> Title</h4 >
+    <ul className="list-unstyled">
+        <li> What it do</li>
+        <li> Howdy Partner</li>
+        <li> I like muscle butt anime girls lol </li>
+    </ul>
+    </div>
+    
+    
+    
+    
     </div> 
-    {/* </div> */}
     </div>
-        <Row >
-           <Col className='text-center py-3' >Copyright &copy; ProShop</Col> 
-        </Row>
+        
     {/* </Container> */}
   </footer> 
   
