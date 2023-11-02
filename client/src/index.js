@@ -1,4 +1,4 @@
-import React from 'react';
+import  React from 'react';
 import ReactDOM from 'react-dom/client';
 import './bootstrap.min.css'
 import './index.css';
@@ -31,6 +31,7 @@ root.render(
 // 1. Add Footer
 // 2. Edit Nav Bar
       // - Why is the footers background behind the main colors backgroun?
+      // - How do I change text color of footer?
 // 3. Add Pages
 // 4. Add Logic
 
