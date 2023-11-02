@@ -30,6 +30,7 @@ root.render(
 
 // 1. Add Footer
 // 2. Edit Nav Bar
+      // - Why is the footers background behind the main colors backgroun?
 // 3. Add Pages
 // 4. Add Logic
 
