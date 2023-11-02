@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, col} from 'react-bootstrap'
 
 const Footer = () => {
   return <footer bg="dark" variant="dark">
-    {/* <Container> */}
+    <Container>
     <div className = "main-footer">
-    {/* <div className ="container"> */}
-    <div className ="row">
+    <div className ="container">
+    <div className ="Row">
 
     {/* Column 1  */}
     <div className='col-md-3 col-sm-6'>
@@ -14,20 +14,20 @@ const Footer = () => {
     <ul className="list-unstyled">
         <li> What it do</li>
         <li> Howdy Partner</li>
-        <li> I like muscle butt anime girls lol </li>
+        <li>Keep Going </li>
     </ul>
     
     </div>
-    
-    
-    
-    
     </div> 
     </div>
+    </div>
         
-    {/* </Container> */}
+    </Container>
   </footer> 
-  
+//  This is crazy right here
+//  This is crazy right here
+
 }
 
 export default Footer
+
