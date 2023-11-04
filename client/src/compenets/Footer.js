@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, col} from 'react-bootstrap'
 
 const Footer = () => {
-  return <footer bg="dark" variant="dark">
+  return <footer bg="light" data-bs-theme="light">
     <Container>
     <div className = "main-footer">
     <div className ="Row">
@@ -10,11 +10,11 @@ const Footer = () => {
     {/* Column 1  */}
     
     <div className='col-md-3 col-sm-6'>
-    <h4> Title</h4 >
+    <h4 className='text-white'> Title</h4 >
     <ul className="list-unstyled">
-        <li> What it do</li>
-        <li> Howdy Partner</li>
-        <li>Keep Going </li>
+        <li className='text-white'> What it do</li>
+        <li className='text-white'> Howdy Partner</li>
+        <li className='text-white'> Keep Going </li>
     </ul>
     </div>
     
